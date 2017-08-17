@@ -1,0 +1,61 @@
+html, body {
+  position: relative;
+  height: 100%;
+}
+
+.swiper-container {
+  height: 100%;
+}
+
+.swiper-slide .gallery{
+  height: calc(100% - 80px);
+  height: -webkit-calc(100% - 80px);
+  height: -moz-calc(100% - 80px);
+  height: -o-calc(100% - 80px);
+}
+
+.swiper-slide .gallery ul{
+  height: 100%;
+}
+
+.swiper-slide .gallery .i2-h li{
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+
+.swiper-slide .gallery .i2-v li{
+  width: 100%;
+  height: 50%;
+  float: left;
+}
+
+.i2-h.settle li{
+  width: 50% !important;
+  height: 100% !important;
+}
+
+.i2-v.settle li{
+  width: 100% !important;
+  height: 50% !important;
+}
+
+.swiper-slide .gallery .i4 li{
+  width: 50%;
+  height: 50%;
+  float: left;
+}
+
+.swiper-slide .gallery .i6 li{
+  width: 33.33333%;
+  height: 50%;
+  float: left;
+}
+
+.swiper-slide .footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 80px;
+  background-color: #ccc;
+}
